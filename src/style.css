@@ -43,7 +43,6 @@ body {
 
 .place {
     display: flex;
-    align-items: center;
     border-bottom: 1px solid #F5F5F5;
     padding: 15px 0;
 }
@@ -64,15 +63,12 @@ body {
     display: flex;
     flex-direction: column;
     color: #2B283A;
+    margin-top: 15px;
 }
 
 .place--location {
     display: flex;
     align-items: center;
-}
-
-.place--location > img {
-
 }
 
 .place--location > a {
